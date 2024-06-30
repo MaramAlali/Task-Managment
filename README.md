@@ -15,7 +15,7 @@
 
 # Installation
 
-1. Clone the repository: git clone https://github.com/MaramAlali/maram.git
+1. Clone the repository: git clone https://github.com/MaramAlali/Task-Managment.git
 2. composer update
 3. Create a new .env file from .env.example and rename to .env
 4. Generate an application key: php artisan key:generate
@@ -24,4 +24,5 @@
 7. php artisan ser
 
 # Usage
+
 ## to use this command you should Upload JSON file which there is in folder to use commands for adding projects and tasks ...etc

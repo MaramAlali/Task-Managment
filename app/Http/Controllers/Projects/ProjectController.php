@@ -4,8 +4,6 @@ namespace App\Http\Controllers\Projects;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Project;
-use Illuminate\Support\Facades\Auth;
-use Spatie\Permission\Models\Role;
 
 class ProjectController extends Controller
 {
@@ -44,7 +42,6 @@ class ProjectController extends Controller
             $updatedPoject->update([
                 'title'=>$request->title,
                 'description'=>$request->description,]);
-
             return response()->json([
             'data'=>$updatedPoject,
             'msg'=>'updated Poject successfully',
